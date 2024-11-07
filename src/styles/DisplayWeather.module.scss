@@ -1,0 +1,179 @@
+body{
+    background: linear-gradient(90deg, rgb(139, 139, 245), rgb(251, 214, 167)); 
+}
+.name{
+    position: relative;
+    top: 20px;
+}
+.container {
+    background-color: #bccad7;
+    border-radius: 10px;
+    margin-left: 500px;
+    max-height: 600px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.weatherArea {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+
+.temperature {
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: -20px;
+}
+
+.bottomInfoArea {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -30px;
+  width: 100%;
+  max-height: 150px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #819eb9, rgb(236, 207, 156));
+}
+.humidityIcon{
+  font-size: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.searchArea{
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+  padding-top: 20px;
+}
+.searchIcon{
+  margin-left: -8px;
+  position: relative;
+  top: -5px;
+  position: relative;
+  
+}
+.searchBar{
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  left: -10px;
+}
+.searchCircle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 20px;
+  background-color: #bccad7;
+  position: relative;
+  left: -20px;
+}
+.humidText{
+  font-size: 35px;
+  padding-left: 70px ;
+  padding-right: 70px;
+  font-weight: bold;
+  position: relative;
+  top: -50px;
+
+  
+}
+.spHumid{
+  display: block;
+  font-weight: normal !important;
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+}
+.country{
+  font-size: 17px;
+  position: relative;
+  top: -10px;
+}
+
+.weatherCondition{
+  font-size: 25px;
+  position: relative;
+  top: -40px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px 20px;
+    position: relative;
+    left: -450px;
+    max-width: 70vw;
+    max-height: 80vh;
+  }
+  body, html{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+  }
+  .humidText{
+    font-size: 20px;
+    
+    left: -70px;
+    padding-top: 20px;
+    padding-left: 85px;
+    padding-right: 30px;
+  }
+  .searchIcon{
+    margin-left: -8px;
+    top: -5px;
+    left: -0px;
+    
+  }
+  .searchBar{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    left: -100px;
+  }
+  .searchCircle{
+    border: none;
+    left: -110px;
+  }
+  .humidityIcon{
+    position: relative;
+    top: 0px;
+    left: -50px;
+    font-size: 35px;
+  }
+  .name{
+    position: relative;
+    top: -10px;
+    font-size: 40px;
+  }
+  .country{
+    position: relative;
+    top: -30px;
+  }
+  .weatherIcon{
+    position: relative;
+    top: -30px;
+    
+  }
+  .temperature{
+    position: relative;
+    top: -50px;
+  }
+  .weatherCondition{
+    position: relative;
+    top: -70px;
+    font-size: 35px;
+  }
+  .bottomInfoArea{
+    position: relative;
+    top: -80px;
+    left: -20px;
+    max-height: 105px;
+    min-width: 320px;
+  }
+}
+
